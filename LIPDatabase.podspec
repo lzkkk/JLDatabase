@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/lzkkk/LIPDatabase.git", :tag => s.version.to_s }
 
-  s.source_files  = "LIPDatabaseFramework/*.{h,m}"
+  s.source_files  = "LIPDatabase/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.library   = "iconv"

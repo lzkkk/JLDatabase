@@ -90,6 +90,7 @@
 		07FDE9A01D69EE2A0084D424 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		07FDE9A11D69EE2A0084D424 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		07FDE9A21D69EE2A0084D424 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		07FDE9AA1D69F1440084D424 /* LIPDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIPDatabase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +199,7 @@
 				07FDE98B1D69EE0B0084D424 /* LIPFMDatabseUtils.m */,
 				07FDE98C1D69EE0B0084D424 /* LIPJsonParseUtils.h */,
 				07FDE98D1D69EE0B0084D424 /* LIPJsonParseUtils.m */,
+				07FDE9AA1D69F1440084D424 /* LIPDatabase.h */,
 			);
 			name = LIPDatabase;
 			path = ../LIPDatabase;
