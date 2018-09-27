@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LIPDatabase_Example' do
+  pod 'LIPDatabase', :path => '../'
+
+  target 'LIPDatabase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
