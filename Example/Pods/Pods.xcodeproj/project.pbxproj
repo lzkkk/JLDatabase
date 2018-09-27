@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126C8351CBD1146695427C6F6FECEF8E /* LIPJsonParseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E60F1ACDF515528970AE6FB15A5B101C /* LIPJsonParseUtils.m */; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242AC045BE66E177699AE2F6286F40BD /* LIPDatabaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E93AA016ADED1E099637ED78759A19 /* LIPDatabaseInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B30AF5EEA60EE54FEE1753237F4313 /* Pods-LIPDatabase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E049C7E78B4F0F3143B471B96EA6EFB0 /* Pods-LIPDatabase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4507ECA2D67F1E6C148B019184D2925D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		46A9B1008CE009929CEF2F0D94B5F9C1 /* Pods-LIPDatabase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A70CB827AE3E890DB2CF7CEC0FD5E /* Pods-LIPDatabase_Example-dummy.m */; };
+		49F2510C15835F879F9AA06D574A1A23 /* Pods-LIPDatabase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34479BC892D89634EB8B75ABA7D57C5D /* Pods-LIPDatabase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E345DB7B4758B2348F362D0A4237B86 /* LIPFMDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FA92F0E1CA481C67A697BE392F76150A /* LIPFMDatabaseUtils.m */; };
+		5E7322E1C2665A339A33B38CA26E4B81 /* Pods-LIPDatabase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2C7F2944082352F9E3E022439689A /* Pods-LIPDatabase_Tests-dummy.m */; };
+		61616271C9C3008BBBBEFDD227473546 /* LIPDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB1FF8247585AF6789EC11C29DD9160 /* LIPDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D756D17FCBD09CA1BC6FD64BF903177 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */; };
+		6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		720EA5E252907AFD94D573EC65476F3B /* LIPDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360F5EC624D6EA1EC51006EB985AEB6 /* LIPDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78432D84AD74BDA59B2B5B1151A1DF1A /* LIPFMDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 23760BF789288EC174788F035F12D962 /* LIPFMDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E84AD73DFEA8E7C06FA58058CCF61D3 /* LIPDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FC4BB1E17C944BCFF0A1B87ED86D16 /* LIPDatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846ACCFBC132D1030B5BD1D4EA48B7EE /* LIPDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F371C6F0BDE39FE0F407DC6993FF3D /* LIPDatabaseUtils.m */; };
+		869843F51E59374BD2BDD108ADBF2EEA /* LIPDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9712247EFF2F646A33EDD384E27F1 /* LIPDatabaseManager.m */; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		928640AB5738B14C285DBA88625AF329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3C0FF405223F6B427D51006E1E78C81 /* LIPFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E18E146E36C40F0138B260E4339F8543 /* LIPFMDatabase.m */; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63844782762E666A7A88445FDE873FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		A6F85BC6976DC92CEC431D0A40C0790E /* LIPDatabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91467C80282123ACB7B0EE9BFA088E /* LIPDatabase-dummy.m */; };
+		AF23FEB4B1B2AF737E6C86789BB3A4C9 /* LIPDBManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F304E177E715850140F6244DE401E7F /* LIPDBManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD024D0190B6ED8E2519B43DD288BF51 /* LIPJsonParseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39FD85169F2566B980E738377A7361 /* LIPJsonParseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD51B28B923415F503D3C9CE1012AB9 /* LIPDatabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9805C14D9C0CBF684B5CE0665B6B037C /* LIPDatabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */; };
+		DC33924E3DD117789510BFFC6805F8BA /* LIPFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = A0604F607AE68D89C2B1061891D6F069 /* LIPFMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AAFCB669197B3A2C9096EB6408AE52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF773890DF284C4A9F1A41F458DB438;
+			remoteInfo = "Pods-LIPDatabase_Example";
+		};
+		BAC0A549C55CF4F2A189D845DA6585F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		CFD84342741A16AE1E084A6593D7954B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		D82F732EC380AAB05C249F48700366A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C104274C00CCC7EF1FAACD3078D8BAA5;
+			remoteInfo = LIPDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		012122261DC0CF86E3D9D02006EE04A5 /* Pods-LIPDatabase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LIPDatabase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		05B2982655FA3BC2264EA7BB473757E1 /* Pods-LIPDatabase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LIPDatabase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A0368D9611EE440D214263D45D5F873 /* Pods-LIPDatabase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LIPDatabase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F304E177E715850140F6244DE401E7F /* LIPDBManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPDBManagerDelegate.h; path = LIPDatabase/Classes/LIPDBManagerDelegate.h; sourceTree = "<group>"; };
+		0FCCC91B947035E75A1F4B85AF59834C /* Pods-LIPDatabase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LIPDatabase_Tests-resources.sh"; sourceTree = "<group>"; };
+		14352F4B9812D5852A131722304DBBD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AB41903E3A1DE6AA831B1B457F6EE4 /* Pods-LIPDatabase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LIPDatabase_Example.modulemap"; sourceTree = "<group>"; };
+		1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		23760BF789288EC174788F035F12D962 /* LIPFMDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPFMDatabaseUtils.h; path = LIPDatabase/Classes/LIPFMDatabaseUtils.h; sourceTree = "<group>"; };
+		248A4C5AA5775158F70E511BDC683CA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		267A1F162934456322BA3006A7F8E02A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E904E40F5EB39FAC7ABA5D6E4401039 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		30A377545B4BB1621BFE258208344A44 /* Pods-LIPDatabase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LIPDatabase_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		34479BC892D89634EB8B75ABA7D57C5D /* Pods-LIPDatabase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LIPDatabase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		353B7BA477D1F8426784C4C9718E7B4F /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB1FF8247585AF6789EC11C29DD9160 /* LIPDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPDatabase.h; path = LIPDatabase/Classes/LIPDatabase.h; sourceTree = "<group>"; };
+		3FA9712247EFF2F646A33EDD384E27F1 /* LIPDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LIPDatabaseManager.m; path = LIPDatabase/Classes/LIPDatabaseManager.m; sourceTree = "<group>"; };
+		49D2C7F2944082352F9E3E022439689A /* Pods-LIPDatabase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LIPDatabase_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4C87025B60526FB1B39EF709451607A3 /* Pods-LIPDatabase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LIPDatabase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E91467C80282123ACB7B0EE9BFA088E /* LIPDatabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LIPDatabase-dummy.m"; sourceTree = "<group>"; };
+		4EBD649000B808032EBFDBAEA8374346 /* Pods_LIPDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LIPDatabase_Example.framework; path = "Pods-LIPDatabase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBFB2F40E42A25D88921131B94CFC58 /* Pods-LIPDatabase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LIPDatabase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		64B4F7BF279C515BFDE11AE94C528BAA /* Pods-LIPDatabase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LIPDatabase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		8019E0B8AC6A535FC8EAF22337FC1ED6 /* LIPDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LIPDatabase.modulemap; sourceTree = "<group>"; };
+		8A1CF03FC152DAE134D34F7241ABEED0 /* Pods_LIPDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LIPDatabase_Tests.framework; path = "Pods-LIPDatabase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8612EC41DEEE396E6B1D7D917286B5 /* Pods-LIPDatabase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LIPDatabase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		9360F5EC624D6EA1EC51006EB985AEB6 /* LIPDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPDatabaseUtils.h; path = LIPDatabase/Classes/LIPDatabaseUtils.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E93AA016ADED1E099637ED78759A19 /* LIPDatabaseInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPDatabaseInterface.h; path = LIPDatabase/Classes/LIPDatabaseInterface.h; sourceTree = "<group>"; };
+		9805C14D9C0CBF684B5CE0665B6B037C /* LIPDatabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LIPDatabase-umbrella.h"; sourceTree = "<group>"; };
+		980DE15827B41AF2681B692B44869960 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F6A007E8869C14F748AA70EDFC7363 /* Pods-LIPDatabase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LIPDatabase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9DEB751EE7C79D082734B4D83791E829 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0604F607AE68D89C2B1061891D6F069 /* LIPFMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPFMDatabase.h; path = LIPDatabase/Classes/LIPFMDatabase.h; sourceTree = "<group>"; };
+		A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A3A39C0CEAA2E81B1468B042D814E8F2 /* LIPDatabase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LIPDatabase-prefix.pch"; sourceTree = "<group>"; };
+		A7A28A5218F43535FEBD24AA5091B8D7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		B4FC4BB1E17C944BCFF0A1B87ED86D16 /* LIPDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPDatabaseManager.h; path = LIPDatabase/Classes/LIPDatabaseManager.h; sourceTree = "<group>"; };
+		B79C377C11537262B89D2D56CC9FD74A /* Pods-LIPDatabase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LIPDatabase_Tests.modulemap"; sourceTree = "<group>"; };
+		BB39FD85169F2566B980E738377A7361 /* LIPJsonParseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LIPJsonParseUtils.h; path = LIPDatabase/Classes/LIPJsonParseUtils.h; sourceTree = "<group>"; };
+		C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CD1CC033596EC20E3CB1A293663809E2 /* Pods-LIPDatabase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LIPDatabase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D04A11FE48B66F277CEE02348136F5F8 /* LIPDatabase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LIPDatabase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0F371C6F0BDE39FE0F407DC6993FF3D /* LIPDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LIPDatabaseUtils.m; path = LIPDatabase/Classes/LIPDatabaseUtils.m; sourceTree = "<group>"; };
+		D9FF782BD36996574D637F6590925584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E049C7E78B4F0F3143B471B96EA6EFB0 /* Pods-LIPDatabase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LIPDatabase_Example-umbrella.h"; sourceTree = "<group>"; };
+		E18E146E36C40F0138B260E4339F8543 /* LIPFMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LIPFMDatabase.m; path = LIPDatabase/Classes/LIPFMDatabase.m; sourceTree = "<group>"; };
+		E60F1ACDF515528970AE6FB15A5B101C /* LIPJsonParseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LIPJsonParseUtils.m; path = LIPDatabase/Classes/LIPJsonParseUtils.m; sourceTree = "<group>"; };
+		E97A70CB827AE3E890DB2CF7CEC0FD5E /* Pods-LIPDatabase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LIPDatabase_Example-dummy.m"; sourceTree = "<group>"; };
+		ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		EFB6090FEF4489835BF78E052B55ECEC /* Pods-LIPDatabase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LIPDatabase_Example-resources.sh"; sourceTree = "<group>"; };
+		F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		F4578B06FFCDD225D1C4B1BB8C4F1A75 /* LIPDatabase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LIPDatabase.xcconfig; sourceTree = "<group>"; };
+		F70BB5421DF8E7192D40E8518BB02FE3 /* LIPDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LIPDatabase.framework; path = LIPDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA92F0E1CA481C67A697BE392F76150A /* LIPFMDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LIPFMDatabaseUtils.m; path = LIPDatabase/Classes/LIPFMDatabaseUtils.m; sourceTree = "<group>"; };
+		FB8BDA7C7629DE74358C6D3409FA8DF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCDA112830D01EABBDCA6FBB604EF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D756D17FCBD09CA1BC6FD64BF903177 /* FMDB.framework in Frameworks */,
+				4507ECA2D67F1E6C148B019184D2925D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEDB4F4B2E3ACBC7921A667E852BC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63844782762E666A7A88445FDE873FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE98F9129D91250956006E197EFACC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928640AB5738B14C285DBA88625AF329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1B96F27E7A774FA1E2F04CD89E6885 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E904E40F5EB39FAC7ABA5D6E4401039 /* FMDB.modulemap */,
+				5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */,
+				7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */,
+				A7A28A5218F43535FEBD24AA5091B8D7 /* FMDB-prefix.pch */,
+				C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */,
+				FB8BDA7C7629DE74358C6D3409FA8DF2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		1C3247E1BB10BFB03050C16C9A75F21C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C06F6D6931541581701B768A02F33A4 /* Pods-LIPDatabase_Example */,
+				F5E2D062BFB5F01D1F8C805926F18AB3 /* Pods-LIPDatabase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E8A70666402923F61614F521EE0CA29 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */,
+				0D1B96F27E7A774FA1E2F04CD89E6885 /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		3BD6CD14964AEB5FE1AA8412A9510C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353B7BA477D1F8426784C4C9718E7B4F /* FMDB.framework */,
+				F70BB5421DF8E7192D40E8518BB02FE3 /* LIPDatabase.framework */,
+				4EBD649000B808032EBFDBAEA8374346 /* Pods_LIPDatabase_Example.framework */,
+				8A1CF03FC152DAE134D34F7241ABEED0 /* Pods_LIPDatabase_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440592F8D2DF518B8091C5A3296FCDC5 /* LIPDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				3AB1FF8247585AF6789EC11C29DD9160 /* LIPDatabase.h */,
+				94E93AA016ADED1E099637ED78759A19 /* LIPDatabaseInterface.h */,
+				B4FC4BB1E17C944BCFF0A1B87ED86D16 /* LIPDatabaseManager.h */,
+				3FA9712247EFF2F646A33EDD384E27F1 /* LIPDatabaseManager.m */,
+				9360F5EC624D6EA1EC51006EB985AEB6 /* LIPDatabaseUtils.h */,
+				D0F371C6F0BDE39FE0F407DC6993FF3D /* LIPDatabaseUtils.m */,
+				0F304E177E715850140F6244DE401E7F /* LIPDBManagerDelegate.h */,
+				A0604F607AE68D89C2B1061891D6F069 /* LIPFMDatabase.h */,
+				E18E146E36C40F0138B260E4339F8543 /* LIPFMDatabase.m */,
+				23760BF789288EC174788F035F12D962 /* LIPFMDatabaseUtils.h */,
+				FA92F0E1CA481C67A697BE392F76150A /* LIPFMDatabaseUtils.m */,
+				BB39FD85169F2566B980E738377A7361 /* LIPJsonParseUtils.h */,
+				E60F1ACDF515528970AE6FB15A5B101C /* LIPJsonParseUtils.m */,
+				9F3349087B8BD154B1D040A18DA8642E /* Pod */,
+				7A7230084C108AEF70F808D34CCD8612 /* Support Files */,
+			);
+			name = LIPDatabase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A7230084C108AEF70F808D34CCD8612 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14352F4B9812D5852A131722304DBBD4 /* Info.plist */,
+				8019E0B8AC6A535FC8EAF22337FC1ED6 /* LIPDatabase.modulemap */,
+				F4578B06FFCDD225D1C4B1BB8C4F1A75 /* LIPDatabase.xcconfig */,
+				4E91467C80282123ACB7B0EE9BFA088E /* LIPDatabase-dummy.m */,
+				A3A39C0CEAA2E81B1468B042D814E8F2 /* LIPDatabase-prefix.pch */,
+				9805C14D9C0CBF684B5CE0665B6B037C /* LIPDatabase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LIPDatabase";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C4DE19EB0FB593382ACF6BE0CFC2BDD7 /* Development Pods */,
+				D2304513832E75413DFDFE967D300314 /* Frameworks */,
+				BFB8C92E749ED180124155E2270474D2 /* Pods */,
+				3BD6CD14964AEB5FE1AA8412A9510C40 /* Products */,
+				1C3247E1BB10BFB03050C16C9A75F21C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C06F6D6931541581701B768A02F33A4 /* Pods-LIPDatabase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DEB751EE7C79D082734B4D83791E829 /* Info.plist */,
+				16AB41903E3A1DE6AA831B1B457F6EE4 /* Pods-LIPDatabase_Example.modulemap */,
+				012122261DC0CF86E3D9D02006EE04A5 /* Pods-LIPDatabase_Example-acknowledgements.markdown */,
+				98F6A007E8869C14F748AA70EDFC7363 /* Pods-LIPDatabase_Example-acknowledgements.plist */,
+				E97A70CB827AE3E890DB2CF7CEC0FD5E /* Pods-LIPDatabase_Example-dummy.m */,
+				0A0368D9611EE440D214263D45D5F873 /* Pods-LIPDatabase_Example-frameworks.sh */,
+				EFB6090FEF4489835BF78E052B55ECEC /* Pods-LIPDatabase_Example-resources.sh */,
+				E049C7E78B4F0F3143B471B96EA6EFB0 /* Pods-LIPDatabase_Example-umbrella.h */,
+				5CBFB2F40E42A25D88921131B94CFC58 /* Pods-LIPDatabase_Example.debug.xcconfig */,
+				8D8612EC41DEEE396E6B1D7D917286B5 /* Pods-LIPDatabase_Example.release.xcconfig */,
+			);
+			name = "Pods-LIPDatabase_Example";
+			path = "Target Support Files/Pods-LIPDatabase_Example";
+			sourceTree = "<group>";
+		};
+		9F3349087B8BD154B1D040A18DA8642E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				248A4C5AA5775158F70E511BDC683CA7 /* LICENSE */,
+				D04A11FE48B66F277CEE02348136F5F8 /* LIPDatabase.podspec */,
+				267A1F162934456322BA3006A7F8E02A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BFB8C92E749ED180124155E2270474D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8A70666402923F61614F521EE0CA29 /* FMDB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C18EF26F40E548D01F3FD1567F4B4455 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF782BD36996574D637F6590925584 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4DE19EB0FB593382ACF6BE0CFC2BDD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440592F8D2DF518B8091C5A3296FCDC5 /* LIPDatabase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D2304513832E75413DFDFE967D300314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */,
+				C18EF26F40E548D01F3FD1567F4B4455 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E2D062BFB5F01D1F8C805926F18AB3 /* Pods-LIPDatabase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				980DE15827B41AF2681B692B44869960 /* Info.plist */,
+				B79C377C11537262B89D2D56CC9FD74A /* Pods-LIPDatabase_Tests.modulemap */,
+				05B2982655FA3BC2264EA7BB473757E1 /* Pods-LIPDatabase_Tests-acknowledgements.markdown */,
+				4C87025B60526FB1B39EF709451607A3 /* Pods-LIPDatabase_Tests-acknowledgements.plist */,
+				49D2C7F2944082352F9E3E022439689A /* Pods-LIPDatabase_Tests-dummy.m */,
+				30A377545B4BB1621BFE258208344A44 /* Pods-LIPDatabase_Tests-frameworks.sh */,
+				0FCCC91B947035E75A1F4B85AF59834C /* Pods-LIPDatabase_Tests-resources.sh */,
+				34479BC892D89634EB8B75ABA7D57C5D /* Pods-LIPDatabase_Tests-umbrella.h */,
+				64B4F7BF279C515BFDE11AE94C528BAA /* Pods-LIPDatabase_Tests.debug.xcconfig */,
+				CD1CC033596EC20E3CB1A293663809E2 /* Pods-LIPDatabase_Tests.release.xcconfig */,
+			);
+			name = "Pods-LIPDatabase_Tests";
+			path = "Target Support Files/Pods-LIPDatabase_Tests";
+			sourceTree = "<group>";
+		};
+		F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */,
+				ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */,
+				C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */,
+				4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */,
+				01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */,
+				A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */,
+				351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */,
+				1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */,
+				73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */,
+				F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */,
+				8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B72A1911BC09A8C1422F07538019042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F2510C15835F879F9AA06D574A1A23 /* Pods-LIPDatabase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B41A27E279C133B775D3C169DFB714C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD51B28B923415F503D3C9CE1012AB9 /* LIPDatabase-umbrella.h in Headers */,
+				61616271C9C3008BBBBEFDD227473546 /* LIPDatabase.h in Headers */,
+				242AC045BE66E177699AE2F6286F40BD /* LIPDatabaseInterface.h in Headers */,
+				7E84AD73DFEA8E7C06FA58058CCF61D3 /* LIPDatabaseManager.h in Headers */,
+				720EA5E252907AFD94D573EC65476F3B /* LIPDatabaseUtils.h in Headers */,
+				AF23FEB4B1B2AF737E6C86789BB3A4C9 /* LIPDBManagerDelegate.h in Headers */,
+				DC33924E3DD117789510BFFC6805F8BA /* LIPFMDatabase.h in Headers */,
+				78432D84AD74BDA59B2B5B1151A1DF1A /* LIPFMDatabaseUtils.h in Headers */,
+				BD024D0190B6ED8E2519B43DD288BF51 /* LIPJsonParseUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A30AD79ABADA11F68890393A58E7245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B30AF5EEA60EE54FEE1753237F4313 /* Pods-LIPDatabase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 353B7BA477D1F8426784C4C9718E7B4F /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACF773890DF284C4A9F1A41F458DB438 /* Pods-LIPDatabase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13EB965C02DA49C047C2D8262ACF6C /* Build configuration list for PBXNativeTarget "Pods-LIPDatabase_Example" */;
+			buildPhases = (
+				08C11B586C57380DE1CCFE0C04CF8529 /* Sources */,
+				7DEDB4F4B2E3ACBC7921A667E852BC62 /* Frameworks */,
+				9A30AD79ABADA11F68890393A58E7245 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8D84B382FEB8E4EE5A6023624A7269 /* PBXTargetDependency */,
+				483510D56E5CEF19ED83435A548B36A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-LIPDatabase_Example";
+			productName = "Pods-LIPDatabase_Example";
+			productReference = 4EBD649000B808032EBFDBAEA8374346 /* Pods_LIPDatabase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C104274C00CCC7EF1FAACD3078D8BAA5 /* LIPDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77855E7A0BB499A09371AB0E3E08FE31 /* Build configuration list for PBXNativeTarget "LIPDatabase" */;
+			buildPhases = (
+				8435C6405F3D1906682A2143DFD7D645 /* Sources */,
+				4CCDA112830D01EABBDCA6FBB604EF16 /* Frameworks */,
+				1B41A27E279C133B775D3C169DFB714C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAEA81C039A6E54848AC30CA981EDD5 /* PBXTargetDependency */,
+			);
+			name = LIPDatabase;
+			productName = LIPDatabase;
+			productReference = F70BB5421DF8E7192D40E8518BB02FE3 /* LIPDatabase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1FC049830793088193ECAA4AA391B8E /* Pods-LIPDatabase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F1885DB601B19F5FFB3F82F1F311EB /* Build configuration list for PBXNativeTarget "Pods-LIPDatabase_Tests" */;
+			buildPhases = (
+				2F597A003892D8761975E68EF20D1698 /* Sources */,
+				BBE98F9129D91250956006E197EFACC0 /* Frameworks */,
+				0B72A1911BC09A8C1422F07538019042 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7CFED23C16458268AEBB66B0A18405 /* PBXTargetDependency */,
+			);
+			name = "Pods-LIPDatabase_Tests";
+			productName = "Pods-LIPDatabase_Tests";
+			productReference = 8A1CF03FC152DAE134D34F7241ABEED0 /* Pods_LIPDatabase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3BD6CD14964AEB5FE1AA8412A9510C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				C104274C00CCC7EF1FAACD3078D8BAA5 /* LIPDatabase */,
+				ACF773890DF284C4A9F1A41F458DB438 /* Pods-LIPDatabase_Example */,
+				D1FC049830793088193ECAA4AA391B8E /* Pods-LIPDatabase_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C11B586C57380DE1CCFE0C04CF8529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A9B1008CE009929CEF2F0D94B5F9C1 /* Pods-LIPDatabase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F597A003892D8761975E68EF20D1698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7322E1C2665A339A33B38CA26E4B81 /* Pods-LIPDatabase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435C6405F3D1906682A2143DFD7D645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F85BC6976DC92CEC431D0A40C0790E /* LIPDatabase-dummy.m in Sources */,
+				869843F51E59374BD2BDD108ADBF2EEA /* LIPDatabaseManager.m in Sources */,
+				846ACCFBC132D1030B5BD1D4EA48B7EE /* LIPDatabaseUtils.m in Sources */,
+				A3C0FF405223F6B427D51006E1E78C81 /* LIPFMDatabase.m in Sources */,
+				5E345DB7B4758B2348F362D0A4237B86 /* LIPFMDatabaseUtils.m in Sources */,
+				126C8351CBD1146695427C6F6FECEF8E /* LIPJsonParseUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483510D56E5CEF19ED83435A548B36A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LIPDatabase;
+			target = C104274C00CCC7EF1FAACD3078D8BAA5 /* LIPDatabase */;
+			targetProxy = D82F732EC380AAB05C249F48700366A6 /* PBXContainerItemProxy */;
+		};
+		9D7CFED23C16458268AEBB66B0A18405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LIPDatabase_Example";
+			target = ACF773890DF284C4A9F1A41F458DB438 /* Pods-LIPDatabase_Example */;
+			targetProxy = 03AAFCB669197B3A2C9096EB6408AE52 /* PBXContainerItemProxy */;
+		};
+		ACAEA81C039A6E54848AC30CA981EDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = BAC0A549C55CF4F2A189D845DA6585F5 /* PBXContainerItemProxy */;
+		};
+		AE8D84B382FEB8E4EE5A6023624A7269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = CFD84342741A16AE1E084A6593D7954B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5810105B26A7988861EEE64FBAD25612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8612EC41DEEE396E6B1D7D917286B5 /* Pods-LIPDatabase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LIPDatabase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LIPDatabase_Example/Pods-LIPDatabase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EA25C1E9FDF8DEF6A53F68A6237E686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D6689C9281EE0A2F91A68009248E62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4578B06FFCDD225D1C4B1BB8C4F1A75 /* LIPDatabase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LIPDatabase/LIPDatabase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LIPDatabase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LIPDatabase/LIPDatabase.modulemap";
+				PRODUCT_MODULE_NAME = LIPDatabase;
+				PRODUCT_NAME = LIPDatabase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D95619E7EDE9F3FC6AD74F265102D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8CD9616167A2AEE2A26848EEF2B377A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBFB2F40E42A25D88921131B94CFC58 /* Pods-LIPDatabase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LIPDatabase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LIPDatabase_Example/Pods-LIPDatabase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F2A978DD3DDEAFC10CDBF19ECF5D626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4578B06FFCDD225D1C4B1BB8C4F1A75 /* LIPDatabase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LIPDatabase/LIPDatabase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LIPDatabase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LIPDatabase/LIPDatabase.modulemap";
+				PRODUCT_MODULE_NAME = LIPDatabase;
+				PRODUCT_NAME = LIPDatabase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEAFCA235BB6C7FBA105EEEC110C4FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B4F7BF279C515BFDE11AE94C528BAA /* Pods-LIPDatabase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LIPDatabase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LIPDatabase_Tests/Pods-LIPDatabase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3A0F0E8AADA4BCD136D05A0C15509FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1CC033596EC20E3CB1A293663809E2 /* Pods-LIPDatabase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LIPDatabase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LIPDatabase_Tests/Pods-LIPDatabase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F1885DB601B19F5FFB3F82F1F311EB /* Build configuration list for PBXNativeTarget "Pods-LIPDatabase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAFCA235BB6C7FBA105EEEC110C4FA1 /* Debug */,
+				B3A0F0E8AADA4BCD136D05A0C15509FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA25C1E9FDF8DEF6A53F68A6237E686 /* Debug */,
+				7D95619E7EDE9F3FC6AD74F265102D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77855E7A0BB499A09371AB0E3E08FE31 /* Build configuration list for PBXNativeTarget "LIPDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2A978DD3DDEAFC10CDBF19ECF5D626 /* Debug */,
+				7D6689C9281EE0A2F91A68009248E62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13EB965C02DA49C047C2D8262ACF6C /* Build configuration list for PBXNativeTarget "Pods-LIPDatabase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD9616167A2AEE2A26848EEF2B377A1 /* Debug */,
+				5810105B26A7988861EEE64FBAD25612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

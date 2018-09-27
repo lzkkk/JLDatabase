@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - LIPDatabase (0.1.0):
+    - FMDB
+
+DEPENDENCIES:
+  - LIPDatabase (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  LIPDatabase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  LIPDatabase: 32ae7d49d1cb06d22dd664404625006eb954fd86
+
+PODFILE CHECKSUM: 584ec63de15089d0fa0ff86f1af99d97fdee8f6f
+
+COCOAPODS: 1.5.3
