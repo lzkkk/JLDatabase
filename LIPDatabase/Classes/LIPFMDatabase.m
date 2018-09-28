@@ -9,7 +9,7 @@
 #import "LIPFMDatabase.h"
 #import "FMDatabase.h"
 #import "LIPFMDatabaseUtils.h"
-
+#import "FMDatabaseQueue.h"
 
 @interface LIPFMDatabase ()
 

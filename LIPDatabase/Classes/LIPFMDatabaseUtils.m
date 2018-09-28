@@ -10,7 +10,7 @@
 #import "LIPDBManagerDelegate.h"
 #import "LIPJsonParseUtils.h"
 #import <objc/runtime.h>
-
+#import "FMDatabase.h"
 
 @implementation LIPFMDatabaseUtils
 

@@ -6,6 +6,5 @@ target 'LIPDatabase_Example' do
   target 'LIPDatabase_Tests' do
     inherit! :search_paths
 
-    
   end
 end

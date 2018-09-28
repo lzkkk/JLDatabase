@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMDatabaseQueue.h"
+
 #import "LIPDatabaseInterface.h"
 
+@class FMDatabaseQueue;
 
 @interface LIPFMDatabase : NSObject <LIPDatabaseInterface>
 

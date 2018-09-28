@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMDatabase.h"
 #import "LIPDatabaseUtils.h"
+
+@class FMResultSet;
 
 @interface LIPFMDatabaseUtils : LIPDatabaseUtils
 
