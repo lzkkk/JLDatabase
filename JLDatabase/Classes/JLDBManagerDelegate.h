@@ -12,7 +12,6 @@
 
 //用来确定特殊字段  如（PRIMARY KEY,UNIQUE,NO NULL,AUTOINCREMENT)
 @required
-+ (NSArray *)requestedColumns;
 
 + (NSDictionary *)columnExtras;
 

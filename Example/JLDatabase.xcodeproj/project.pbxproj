@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F925F8215E7CF100F61938 /* JLTestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F925F7215E7CF100F61938 /* JLTestEntity.m */; };
 		1A0903F14BDB7B31E7E7039D /* Pods_JLDatabase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5781EF21FF769F9928E198 /* Pods_JLDatabase_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F925F6215E7CF100F61938 /* JLTestEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTestEntity.h; sourceTree = "<group>"; };
+		07F925F7215E7CF100F61938 /* JLTestEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTestEntity.m; sourceTree = "<group>"; };
 		2502C5AC62FB53B136AD95C6 /* Pods_JLDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E105B96C72195786CF600F /* Pods-JLDatabase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDatabase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLDatabase_Tests/Pods-JLDatabase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F5E1CFAF9F4B21012EF0F1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5F5E1CFAF9F4B21012EF0F1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JLDatabase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDatabase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +62,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B20D37D6BD44DD8267DFF0C /* JLDatabase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JLDatabase.podspec; path = ../JLDatabase.podspec; sourceTree = "<group>"; };
+		6B20D37D6BD44DD8267DFF0C /* JLDatabase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLDatabase.podspec; path = ../JLDatabase.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F2D635363858122F64EE08 /* Pods-JLDatabase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDatabase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C049B0C075A6F5B8E95FBCCC /* Pods-JLDatabase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDatabase_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C2B34DC6800DCFF6AEBC8847 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2B34DC6800DCFF6AEBC8847 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC5781EF21FF769F9928E198 /* Pods_JLDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94AA2CA846DBCB83B15F9F3 /* Pods-JLDatabase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDatabase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDatabase_Tests/Pods-JLDatabase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +149,8 @@
 				6003F59C195388D20070C39A /* JLAppDelegate.h */,
 				6003F59D195388D20070C39A /* JLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				07F925F6215E7CF100F61938 /* JLTestEntity.h */,
+				07F925F7215E7CF100F61938 /* JLTestEntity.m */,
 				6003F5A5195388D20070C39A /* JLViewController.h */,
 				6003F5A6195388D20070C39A /* JLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -360,6 +365,7 @@
 				6003F59E195388D20070C39A /* JLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				07F925F8215E7CF100F61938 /* JLTestEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

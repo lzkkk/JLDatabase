@@ -8,12 +8,28 @@
 
 #import "JLAppDelegate.h"
 #import "JLDatabase.h"
+#import "JLTestEntity.h"
 
 @implementation JLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *name = [path stringByAppendingPathComponent:@"test.db"];
+    [[JLDatabaseManager defaultManager] linkDatabase:name];
+    
+    JLTestEntity *testEntity = [[JLTestEntity alloc] init];
+    testEntity.email = @"jlgoodlucky@gmail.com";
+    testEntity.name = @"lip";
+    testEntity.age = 27;
+    testEntity.blob = @{@"test": @"jl"};
+    testEntity.ignore = @"ignore";
+    testEntity.newbee = YES;
+    
+    [JLTestEntity insertTestEntity:testEntity];
+    
+    
     return YES;
 }
 

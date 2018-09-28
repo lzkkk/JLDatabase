@@ -7,6 +7,7 @@
 //
 
 #import "JLViewController.h"
+#import "JLTestEntity.h"
 
 @interface JLViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray *arr = [JLTestEntity queryAllData];
+    for (JLTestEntity *entity in arr) {
+        NSLog(@"%@", [entity description]);
+    }
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
