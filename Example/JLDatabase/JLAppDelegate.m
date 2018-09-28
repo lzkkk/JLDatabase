@@ -7,6 +7,7 @@
 //
 
 #import "JLAppDelegate.h"
+#import "JLDatabase.h"
 
 @implementation JLAppDelegate
 
