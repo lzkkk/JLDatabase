@@ -22,8 +22,7 @@ JLDatabase base on FMDB, use FMDB is easy.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JLDatabase/Classes/**/*'
-  
+  s.source_files = 'JLDatabase/Classes/*.{h,m}'
 
   s.requires_arc = true
 

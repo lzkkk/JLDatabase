@@ -7,108 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0142A6F01DF4E9A0976260D96FE5F958 /* JLDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */; };
-		0DC56B8CB208AF675EDEA6950B6E25D4 /* JLDBManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E3262A021F0A42B91886CEB58CE55A8 /* JLJsonParseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12AB40AD628958AADB081E8CA961DB7E /* JLFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */; };
-		1B74CF387BF65E14E611382C66F77BBD /* JLFMDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E343093015898EB24E6E8B415C80BA3 /* JLJsonParseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */; };
-		23083D4E7A94AB5D0632AC6970874D61 /* JLDatabaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256CF1DF7277813DFEC17DE2184998C2 /* Pods-JLDatabase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F6B240B20978EAEBCD967F54288D8AD /* JLDatabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */; };
-		50AE37E5111931D76C23D30225EB55AF /* JLDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */; };
-		67C98CA6D159C60526CE48F4D60878DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		78E80406BE93F514F18200DF8863967F /* JLDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C4197EFCF94ABF479DE8A8060C3EDFD /* JLDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83911D3202FF45B0E3DC9D79B66E7A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0CF83AF020CD53187779191A7CE64EC7 /* JLDBManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F36CDB7131C8A9B37373B4E140542079 /* JLDBManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147BB916C54762F9A343ABD616C77FA1 /* JLDatabaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 1964AD0FD6BBDB4DB5A7D9FE5A00D2FA /* JLDatabaseInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20058C6C621B1CD8B0317395CBA15BFF /* JLDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E20343A75A8798BE04DE443E98F13677 /* JLDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25CB7B2DE035DD7B15D789FD400CFF63 /* JLDatabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F018062BBB6AB6DF2465F36D5A5CD2B /* JLDatabase-dummy.m */; };
+		30318A7B40D867E1F8410CC84F0815D8 /* JLDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A79EC9A90AEE2FF53D11F9A10BE199 /* JLDatabaseUtils.m */; };
+		366E49706879413D40486D62B59E525D /* Pods-JLDatabase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FECDF3D3790837989C778764B8D8147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		5B939449DF1994CA1E50BE5FEA499937 /* JLJsonParseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7576D93C9A617DB1C5F45DDED5EC0721 /* JLJsonParseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		619592B4DC77E69F4EE2CE3E3DC55DF6 /* Pods-JLDatabase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */; };
+		6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		7856C119F2E02BCA5A0B1AEE37B55F34 /* JLDatabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB6F3076F38D9546DC686FC6D53DC0 /* JLDatabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83911D3202FF45B0E3DC9D79B66E7A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		8593DCE273255E60DFF87AA19123F85C /* JLFMDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE1869413A266734A7D4C61D3949EB0 /* JLFMDatabaseUtils.m */; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8859D39216D789D10CEA10273654ED60 /* JLFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1FE615D8E4FE3DAB764B420C201D8E /* JLFMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9224AA5EE408103178447A8A03D4609E /* Pods-JLDatabase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC4D0902C8CAECDFD226AD800F681F6 /* Pods-JLDatabase_Tests-dummy.m */; };
-		AAC5F2D4E90A851230B689AD4DDA4557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C4A199F111209556305FBA01E3C354F4 /* JLFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA019171B7FBF714315A929C109E4B44 /* JLDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E900D5C1E5685EA26E325307638056EC /* Pods-JLDatabase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E7AF1C4F427E5E06A4808EBE4A51DA9 /* JLFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1387E1B8082F8923729BB5BEDBC2A /* JLFMDatabase.m */; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8D2946A320E2842A93381F4E9C0853 /* JLDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C9804E3851C0AFFBA52E50013C3377 /* JLDatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF819B7A5684953FCCD9C2B397D8DC15 /* JLDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D06A6316AF4E7088ED844E3A628E /* JLDatabaseManager.m */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */; };
+		D89C1B6494EACC848892F30C0754BDB9 /* JLFMDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 72921F9C5D487E6B2C4B61466F9D7EC6 /* JLFMDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA0761352312F7902DF3F2D4451869C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF782BD36996574D637F6590925584 /* Foundation.framework */; };
+		EC8C091834F3BA4FFBBECFD1A9213A3B /* JLDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 124B71F0C998A78F0801C51247032AC6 /* JLDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE902E15FDA29E3EB88FE25B16BB6864 /* Pods-JLDatabase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6565F43A70B198E9D3739C6BF9ADE5 /* Pods-JLDatabase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0935911C906EBFD9CD84DB795B2ABDB /* JLDatabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB4A6042B99FC9EF6CBC45289BCE32B5 /* JLFMDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */; };
+		F0A58C57370797DABD9FD170F66D21B2 /* JLJsonParseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F71521BFE56D8E3C568295E6C00A7 /* JLJsonParseUtils.m */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A020CA7963C39CE73F023E82BDFF76 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A3F355E7E5CFEE0696BDD26A2814AD7 /* PBXContainerItemProxy */ = {
+		1163BD667664FE694AB284705B877EB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C601DA02E3E6170E490AA47549D87B1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		635D6702EBBCD2FED55AF2D120FB8E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		82732623578F44F96F9B48019DB20E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249DE390CADA95C07FCBE935D60C479D;
 			remoteInfo = JLDatabase;
 		};
 		8B77908BD8308E519E9391C05E5B8330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D623BB56706478E6B62E11FA0174778;
+			remoteGlobalIDString = 4B94A4B9A279EE54AD181244A2505694;
 			remoteInfo = "Pods-JLDatabase_Example";
-
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-
-		26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLDatabase-dummy.m"; sourceTree = "<group>"; };
+		0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		0272019CDF211FDF157225CB490B0282 /* Pods_JLDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLDatabase_Tests.framework; path = "Pods-JLDatabase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B1387E1B8082F8923729BB5BEDBC2A /* JLFMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabase.m; path = JLDatabase/Classes/JLFMDatabase.m; sourceTree = "<group>"; };
+		124B71F0C998A78F0801C51247032AC6 /* JLDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseUtils.h; path = JLDatabase/Classes/JLDatabaseUtils.h; sourceTree = "<group>"; };
+		1964AD0FD6BBDB4DB5A7D9FE5A00D2FA /* JLDatabaseInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseInterface.h; path = JLDatabase/Classes/JLDatabaseInterface.h; sourceTree = "<group>"; };
+		1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		24C9804E3851C0AFFBA52E50013C3377 /* JLDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseManager.h; path = JLDatabase/Classes/JLDatabaseManager.h; sourceTree = "<group>"; };
+		24EF0120881D3A2E2E535B27B92C651B /* Pods_JLDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLDatabase_Example.framework; path = "Pods-JLDatabase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D75AC4131DDED77B291EBE63B52FCF /* Pods-JLDatabase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDatabase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseUtils.h; path = JLDatabase/Classes/JLDatabaseUtils.h; sourceTree = "<group>"; };
-		2C675673C9F749891FE6503DCDF5DB37 /* JLDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLDatabase.modulemap; sourceTree = "<group>"; };
-		2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabase.m; path = JLDatabase/Classes/JLFMDatabase.m; sourceTree = "<group>"; };
-		3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseManager.h; path = JLDatabase/Classes/JLDatabaseManager.h; sourceTree = "<group>"; };
-		36A64B00E1CE81752BC25AB82061C76E /* JLDatabase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-prefix.pch"; sourceTree = "<group>"; };
+		2E1FE615D8E4FE3DAB764B420C201D8E /* JLFMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabase.h; path = JLDatabase/Classes/JLFMDatabase.h; sourceTree = "<group>"; };
+		2E904E40F5EB39FAC7ABA5D6E4401039 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		36A79EC9A90AEE2FF53D11F9A10BE199 /* JLDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseUtils.m; path = JLDatabase/Classes/JLDatabaseUtils.m; sourceTree = "<group>"; };
 		39420F5573491A7B0B081B126261EE2D /* Pods-JLDatabase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Tests-resources.sh"; sourceTree = "<group>"; };
-		3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseManager.m; path = JLDatabase/Classes/JLDatabaseManager.m; sourceTree = "<group>"; };
-		411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDBManagerDelegate.h; path = JLDatabase/Classes/JLDBManagerDelegate.h; sourceTree = "<group>"; };
+		45257369A0869F1C2419BD9C88681441 /* JLDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLDatabase.modulemap; sourceTree = "<group>"; };
 		4570F55079573EC7FF2731536E8F303E /* Pods-JLDatabase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDatabase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLJsonParseUtils.h; path = JLDatabase/Classes/JLJsonParseUtils.h; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DD8574F3843CD25932EF318ACB6CB7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4DDDE8D8CAE0CF0BDCF6CC70DB46C1E0 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		5E8615AF0B8C7215B8325BAAC5F77839 /* Pods-JLDatabase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabase.h; path = JLDatabase/Classes/JLFMDatabase.h; sourceTree = "<group>"; };
 		69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Example.release.xcconfig"; sourceTree = "<group>"; };
-		75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseInterface.h; path = JLDatabase/Classes/JLDatabaseInterface.h; sourceTree = "<group>"; };
+		6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		72921F9C5D487E6B2C4B61466F9D7EC6 /* JLFMDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabaseUtils.h; path = JLDatabase/Classes/JLFMDatabaseUtils.h; sourceTree = "<group>"; };
+		73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		7576D93C9A617DB1C5F45DDED5EC0721 /* JLJsonParseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLJsonParseUtils.h; path = JLDatabase/Classes/JLJsonParseUtils.h; sourceTree = "<group>"; };
+		7C741930EF63501EF03D57F21BD731CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		80A566CFA713534232DEBA9D79872C10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869DDF86DCE1F70231682E411AFC4DBF /* Pods-JLDatabase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLDatabase_Tests.modulemap"; sourceTree = "<group>"; };
-		88DDE30FC82444C46C7CF780E674D290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8988B3CB374918BD8F04C75539FD31BF /* Pods-JLDatabase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseUtils.m; path = JLDatabase/Classes/JLDatabaseUtils.m; sourceTree = "<group>"; };
-		9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLJsonParseUtils.m; path = JLDatabase/Classes/JLJsonParseUtils.m; sourceTree = "<group>"; };
-		9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-umbrella.h"; sourceTree = "<group>"; };
+		8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		980F2A569A1F0C95FD4702779A4C92D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9F018062BBB6AB6DF2465F36D5A5CD2B /* JLDatabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLDatabase-dummy.m"; sourceTree = "<group>"; };
+		9FAB6F3076F38D9546DC686FC6D53DC0 /* JLDatabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-umbrella.h"; sourceTree = "<group>"; };
 		A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDatabase_Example-umbrella.h"; sourceTree = "<group>"; };
+		A1198DC1354F9F1871053E4AF93A2AF5 /* JLDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLDatabase.framework; path = JLDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A7A28A5218F43535FEBD24AA5091B8D7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		AABEA17031BF9133661105FF3209614D /* Pods-JLDatabase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Example-resources.sh"; sourceTree = "<group>"; };
 		AAC4D0902C8CAECDFD226AD800F681F6 /* Pods-JLDatabase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDatabase_Tests-dummy.m"; sourceTree = "<group>"; };
 		AC6565F43A70B198E9D3739C6BF9ADE5 /* Pods-JLDatabase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDatabase_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabase.h; path = JLDatabase/Classes/JLDatabase.h; sourceTree = "<group>"; };
+		AF2AC6DA6D642517A857A9B0EDD8551F /* JLDatabase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JLDatabase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3C6FF6025CD3928688D0F049D563CC3 /* Pods-JLDatabase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDatabase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabaseUtils.h; path = JLDatabase/Classes/JLFMDatabaseUtils.h; sourceTree = "<group>"; };
-		BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		C3671345BA68A3281A9370D3BAA401E8 /* Pods-JLDatabase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLDatabase.xcconfig; sourceTree = "<group>"; };
-		CB88BD76564E83EE0909D7685480CA1D /* JLDatabase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JLDatabase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		D39AF1927D7AEB0800B493B187BD2D4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FF782BD36996574D637F6590925584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBE1869413A266734A7D4C61D3949EB0 /* JLFMDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabaseUtils.m; path = JLDatabase/Classes/JLFMDatabaseUtils.m; sourceTree = "<group>"; };
+		DC2D5F424E6A9CDEB41BBF6CA3453A67 /* JLDatabase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLDatabase.xcconfig; sourceTree = "<group>"; };
 		DCE7C9FDBF2F0E42BA9221FB15FE134F /* Pods-JLDatabase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLDatabase_Example.modulemap"; sourceTree = "<group>"; };
+		DFD7D06A6316AF4E7088ED844E3A628E /* JLDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseManager.m; path = JLDatabase/Classes/JLDatabaseManager.m; sourceTree = "<group>"; };
+		E20343A75A8798BE04DE443E98F13677 /* JLDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabase.h; path = JLDatabase/Classes/JLDatabase.h; sourceTree = "<group>"; };
 		E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDatabase_Example-dummy.m"; sourceTree = "<group>"; };
-		E590DA8A759FA5A0D4D74E6DF94CE542 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25F71521BFE56D8E3C568295E6C00A7 /* JLJsonParseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLJsonParseUtils.m; path = JLDatabase/Classes/JLJsonParseUtils.m; sourceTree = "<group>"; };
 		E84C0E035B8798D5F4C85414C9F5FEBC /* Pods-JLDatabase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabaseUtils.m; path = JLDatabase/Classes/JLFMDatabaseUtils.m; sourceTree = "<group>"; };
+		E9FD19F5EB1FDBE2FB87A74BBE9F64DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		F36CDB7131C8A9B37373B4E140542079 /* JLDBManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDBManagerDelegate.h; path = JLDatabase/Classes/JLDBManagerDelegate.h; sourceTree = "<group>"; };
 		F371D5D4C7FDDE8E3F38207D9EBCC80D /* Pods-JLDatabase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDatabase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB19C48516FBC34C1423C5858AE5E568 /* JLDatabase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-prefix.pch"; sourceTree = "<group>"; };
+		FB8BDA7C7629DE74358C6D3409FA8DF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC165931CA7B25E2684E1402DAF62565 /* Pods-JLDatabase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49D3D7ACF2E924647393BE32949E46F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67C98CA6D159C60526CE48F4D60878DC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E80142AE6EA3272DCC488ABBF820935 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,18 +155,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B306F4F4F14C6115F79F871631A5B72B /* Frameworks */ = {
+		D763210B1A1B43B5BBD4CF7EB4D8B12B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC5F2D4E90A851230B689AD4DDA4557 /* Foundation.framework in Frameworks */,
+				EBA0761352312F7902DF3F2D4451869C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EFD082D262A914B7713672B7454A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A020CA7963C39CE73F023E82BDFF76 /* FMDB.framework in Frameworks */,
+				3FECDF3D3790837989C778764B8D8147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-
 		024E51403E8E29F8FC336BED30973891 /* Pods-JLDatabase_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +201,53 @@
 			path = "Target Support Files/Pods-JLDatabase_Example";
 			sourceTree = "<group>";
 		};
+		0623E82DE2791BC148AE7F4E5EFEB87C /* JLDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				E20343A75A8798BE04DE443E98F13677 /* JLDatabase.h */,
+				1964AD0FD6BBDB4DB5A7D9FE5A00D2FA /* JLDatabaseInterface.h */,
+				24C9804E3851C0AFFBA52E50013C3377 /* JLDatabaseManager.h */,
+				DFD7D06A6316AF4E7088ED844E3A628E /* JLDatabaseManager.m */,
+				124B71F0C998A78F0801C51247032AC6 /* JLDatabaseUtils.h */,
+				36A79EC9A90AEE2FF53D11F9A10BE199 /* JLDatabaseUtils.m */,
+				F36CDB7131C8A9B37373B4E140542079 /* JLDBManagerDelegate.h */,
+				2E1FE615D8E4FE3DAB764B420C201D8E /* JLFMDatabase.h */,
+				11B1387E1B8082F8923729BB5BEDBC2A /* JLFMDatabase.m */,
+				72921F9C5D487E6B2C4B61466F9D7EC6 /* JLFMDatabaseUtils.h */,
+				DBE1869413A266734A7D4C61D3949EB0 /* JLFMDatabaseUtils.m */,
+				7576D93C9A617DB1C5F45DDED5EC0721 /* JLJsonParseUtils.h */,
+				E25F71521BFE56D8E3C568295E6C00A7 /* JLJsonParseUtils.m */,
+				AC07111EAA1A26D1FC75B5F3D74CCC33 /* Pod */,
+				D5B7855F5CE456A1320655619BA83423 /* Support Files */,
+			);
+			name = JLDatabase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0D1B96F27E7A774FA1E2F04CD89E6885 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E904E40F5EB39FAC7ABA5D6E4401039 /* FMDB.modulemap */,
+				5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */,
+				7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */,
+				A7A28A5218F43535FEBD24AA5091B8D7 /* FMDB-prefix.pch */,
+				C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */,
+				FB8BDA7C7629DE74358C6D3409FA8DF2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		2E8A70666402923F61614F521EE0CA29 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */,
+				0D1B96F27E7A774FA1E2F04CD89E6885 /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
 		510BFD4BF454DF766536EFDEC4FE05B9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,60 +257,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		70E45C39819E5D14FE4458B00D1AD580 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				4DDDE8D8CAE0CF0BDCF6CC70DB46C1E0 /* FMDB.framework */,
+				A1198DC1354F9F1871053E4AF93A2AF5 /* JLDatabase.framework */,
+				24EF0120881D3A2E2E535B27B92C651B /* Pods_JLDatabase_Example.framework */,
+				0272019CDF211FDF157225CB490B0282 /* Pods_JLDatabase_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7496F5CD9928CBB189403ECED91302AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0623E82DE2791BC148AE7F4E5EFEB87C /* JLDatabase */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B157C95BAB3A1842D3AD44605489F65C /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C27A7C0C16C2503D880AD166FA5CCE3F /* Products */,
+				7496F5CD9928CBB189403ECED91302AA /* Development Pods */,
+				D2304513832E75413DFDFE967D300314 /* Frameworks */,
+				BFB8C92E749ED180124155E2270474D2 /* Pods */,
+				70E45C39819E5D14FE4458B00D1AD580 /* Products */,
 				510BFD4BF454DF766536EFDEC4FE05B9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EE097459C9B47B02A0265907B3711DA /* JLDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */,
-				7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */,
-				3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */,
-				3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */,
-				29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */,
-				958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */,
-				411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */,
-				611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */,
-				2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */,
-				B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */,
-				F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */,
-				4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */,
-				9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */,
-				831D0B9060E33BBBC0DFFFEAA5CA9096 /* Pod */,
-				95E5DBB1B7008DAC1221DC81C8DB2A75 /* Support Files */,
-			);
-			name = JLDatabase;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		831D0B9060E33BBBC0DFFFEAA5CA9096 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB88BD76564E83EE0909D7685480CA1D /* JLDatabase.podspec */,
-				5DD8574F3843CD25932EF318ACB6CB7D /* LICENSE */,
-				88DDE30FC82444C46C7CF780E674D290 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-
 		8AC369A3F1C384E3AA4E15288FEDD4B2 /* Pods-JLDatabase_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,64 +306,111 @@
 			path = "Target Support Files/Pods-JLDatabase_Tests";
 			sourceTree = "<group>";
 		};
-		95E5DBB1B7008DAC1221DC81C8DB2A75 /* Support Files */ = {
+		AC07111EAA1A26D1FC75B5F3D74CCC33 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E590DA8A759FA5A0D4D74E6DF94CE542 /* Info.plist */,
-				2C675673C9F749891FE6503DCDF5DB37 /* JLDatabase.modulemap */,
-				C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */,
-				26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */,
-				36A64B00E1CE81752BC25AB82061C76E /* JLDatabase-prefix.pch */,
-				9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */,
+				AF2AC6DA6D642517A857A9B0EDD8551F /* JLDatabase.podspec */,
+				980F2A569A1F0C95FD4702779A4C92D5 /* LICENSE */,
+				7C741930EF63501EF03D57F21BD731CC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BFB8C92E749ED180124155E2270474D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8A70666402923F61614F521EE0CA29 /* FMDB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C18EF26F40E548D01F3FD1567F4B4455 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF782BD36996574D637F6590925584 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2304513832E75413DFDFE967D300314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0078E8D5A781B47986A348FBCC779CF6 /* FMDB.framework */,
+				C18EF26F40E548D01F3FD1567F4B4455 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B7855F5CE456A1320655619BA83423 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FD19F5EB1FDBE2FB87A74BBE9F64DE /* Info.plist */,
+				45257369A0869F1C2419BD9C88681441 /* JLDatabase.modulemap */,
+				DC2D5F424E6A9CDEB41BBF6CA3453A67 /* JLDatabase.xcconfig */,
+				9F018062BBB6AB6DF2465F36D5A5CD2B /* JLDatabase-dummy.m */,
+				FB19C48516FBC34C1423C5858AE5E568 /* JLDatabase-prefix.pch */,
+				9FAB6F3076F38D9546DC686FC6D53DC0 /* JLDatabase-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JLDatabase";
 			sourceTree = "<group>";
 		};
-		B157C95BAB3A1842D3AD44605489F65C /* Development Pods */ = {
+		F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				7EE097459C9B47B02A0265907B3711DA /* JLDatabase */,
-
+				6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */,
+				ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */,
+				C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */,
+				4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */,
+				01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */,
+				A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */,
+				351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */,
+				1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */,
+				73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */,
+				F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */,
+				8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C27A7C0C16C2503D880AD166FA5CCE3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */,
-				9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */,
-				75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */,
-			);
-			name = Products;
+			name = standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3EE12DA9CFB64CAB0177EE9C704939C6 /* Headers */ = {
+		22F4B632ED4CEC98BC7AB5796A9CA363 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0935911C906EBFD9CD84DB795B2ABDB /* JLDatabase-umbrella.h in Headers */,
-				78E80406BE93F514F18200DF8863967F /* JLDatabase.h in Headers */,
-				23083D4E7A94AB5D0632AC6970874D61 /* JLDatabaseInterface.h in Headers */,
-				DA019171B7FBF714315A929C109E4B44 /* JLDatabaseManager.h in Headers */,
-				7C4197EFCF94ABF479DE8A8060C3EDFD /* JLDatabaseUtils.h in Headers */,
-				0DC56B8CB208AF675EDEA6950B6E25D4 /* JLDBManagerDelegate.h in Headers */,
-				C4A199F111209556305FBA01E3C354F4 /* JLFMDatabase.h in Headers */,
-				1B74CF387BF65E14E611382C66F77BBD /* JLFMDatabaseUtils.h in Headers */,
-				0E3262A021F0A42B91886CEB58CE55A8 /* JLJsonParseUtils.h in Headers */,
+				7856C119F2E02BCA5A0B1AEE37B55F34 /* JLDatabase-umbrella.h in Headers */,
+				20058C6C621B1CD8B0317395CBA15BFF /* JLDatabase.h in Headers */,
+				147BB916C54762F9A343ABD616C77FA1 /* JLDatabaseInterface.h in Headers */,
+				AD8D2946A320E2842A93381F4E9C0853 /* JLDatabaseManager.h in Headers */,
+				EC8C091834F3BA4FFBBECFD1A9213A3B /* JLDatabaseUtils.h in Headers */,
+				0CF83AF020CD53187779191A7CE64EC7 /* JLDBManagerDelegate.h in Headers */,
+				8859D39216D789D10CEA10273654ED60 /* JLFMDatabase.h in Headers */,
+				D89C1B6494EACC848892F30C0754BDB9 /* JLFMDatabaseUtils.h in Headers */,
+				5B939449DF1994CA1E50BE5FEA499937 /* JLJsonParseUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44123C90B5F9662BC34142CEEF3921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366E49706879413D40486D62B59E525D /* Pods-JLDatabase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,17 +422,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD836A43A243D1E0A16566F7637A0147 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				256CF1DF7277813DFEC17DE2184998C2 /* Pods-JLDatabase_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		249DE390CADA95C07FCBE935D60C479D /* JLDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1807EF75E39B2FC258EA31DA74D0276A /* Build configuration list for PBXNativeTarget "JLDatabase" */;
+			buildPhases = (
+				294E9E53BBD865C6428A7DDB74942802 /* Sources */,
+				E0EFD082D262A914B7713672B7454A91 /* Frameworks */,
+				22F4B632ED4CEC98BC7AB5796A9CA363 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371757FB657B2A4BE853BD3A14EA56A6 /* PBXTargetDependency */,
+			);
+			name = JLDatabase;
+			productName = JLDatabase;
+			productReference = A1198DC1354F9F1871053E4AF93A2AF5 /* JLDatabase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 4DDDE8D8CAE0CF0BDCF6CC70DB46C1E0 /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		403E09AAEF5F2B3796293AB1412BFBED /* Pods-JLDatabase_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94897DB339372E8C9AF5164FBBB41C32 /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Tests" */;
@@ -323,42 +475,26 @@
 			);
 			name = "Pods-JLDatabase_Tests";
 			productName = "Pods-JLDatabase_Tests";
-			productReference = 75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */;
+			productReference = 0272019CDF211FDF157225CB490B0282 /* Pods_JLDatabase_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */ = {
+		4B94A4B9A279EE54AD181244A2505694 /* Pods-JLDatabase_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633ED7C1DACE6BC02F2419C142C8DE9E /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */;
+			buildConfigurationList = 3AB7782E5BD5C763BC612FAE8F332E75 /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */;
 			buildPhases = (
-				2075AEEBF9CF8DF07B162C3E983E7A07 /* Sources */,
-				49D3D7ACF2E924647393BE32949E46F5 /* Frameworks */,
-				FD836A43A243D1E0A16566F7637A0147 /* Headers */,
+				70328890B2468C6C5FC11298484467F5 /* Sources */,
+				D763210B1A1B43B5BBD4CF7EB4D8B12B /* Frameworks */,
+				2B44123C90B5F9662BC34142CEEF3921 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6C5051F48890F3BCF4516AB930F2551 /* PBXTargetDependency */,
+				E826CF27F002FB38092DE11A22A37468 /* PBXTargetDependency */,
+				B200991A0E500AE7D4032A33ABFDF3FD /* PBXTargetDependency */,
 			);
 			name = "Pods-JLDatabase_Example";
 			productName = "Pods-JLDatabase_Example";
-			productReference = 9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DA0A606CA7BFBF209A51BBDE3DD962D /* Build configuration list for PBXNativeTarget "JLDatabase" */;
-			buildPhases = (
-				00DABE37A83A6E83035F291831A26537 /* Sources */,
-				B306F4F4F14C6115F79F871631A5B72B /* Frameworks */,
-				3EE12DA9CFB64CAB0177EE9C704939C6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JLDatabase;
-			productName = JLDatabase;
-			productReference = BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */;
+			productReference = 24EF0120881D3A2E2E535B27B92C651B /* Pods_JLDatabase_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -378,36 +514,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C27A7C0C16C2503D880AD166FA5CCE3F /* Products */;
+			productRefGroup = 70E45C39819E5D14FE4458B00D1AD580 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */,
-				5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */,
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				249DE390CADA95C07FCBE935D60C479D /* JLDatabase */,
+				4B94A4B9A279EE54AD181244A2505694 /* Pods-JLDatabase_Example */,
 				403E09AAEF5F2B3796293AB1412BFBED /* Pods-JLDatabase_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00DABE37A83A6E83035F291831A26537 /* Sources */ = {
+		294E9E53BBD865C6428A7DDB74942802 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F6B240B20978EAEBCD967F54288D8AD /* JLDatabase-dummy.m in Sources */,
-				50AE37E5111931D76C23D30225EB55AF /* JLDatabaseManager.m in Sources */,
-				0142A6F01DF4E9A0976260D96FE5F958 /* JLDatabaseUtils.m in Sources */,
-				12AB40AD628958AADB081E8CA961DB7E /* JLFMDatabase.m in Sources */,
-				FB4A6042B99FC9EF6CBC45289BCE32B5 /* JLFMDatabaseUtils.m in Sources */,
-				1E343093015898EB24E6E8B415C80BA3 /* JLJsonParseUtils.m in Sources */,
+				25CB7B2DE035DD7B15D789FD400CFF63 /* JLDatabase-dummy.m in Sources */,
+				CF819B7A5684953FCCD9C2B397D8DC15 /* JLDatabaseManager.m in Sources */,
+				30318A7B40D867E1F8410CC84F0815D8 /* JLDatabaseUtils.m in Sources */,
+				9E7AF1C4F427E5E06A4808EBE4A51DA9 /* JLFMDatabase.m in Sources */,
+				8593DCE273255E60DFF87AA19123F85C /* JLFMDatabaseUtils.m in Sources */,
+				F0A58C57370797DABD9FD170F66D21B2 /* JLJsonParseUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2075AEEBF9CF8DF07B162C3E983E7A07 /* Sources */ = {
+		70328890B2468C6C5FC11298484467F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E900D5C1E5685EA26E325307638056EC /* Pods-JLDatabase_Example-dummy.m in Sources */,
+				619592B4DC77E69F4EE2CE3E3DC55DF6 /* Pods-JLDatabase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,24 +572,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		371757FB657B2A4BE853BD3A14EA56A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 635D6702EBBCD2FED55AF2D120FB8E45 /* PBXContainerItemProxy */;
+		};
 		91CC9B422024E02440783DA8A18CD01F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JLDatabase_Example";
-			target = 5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */;
+			target = 4B94A4B9A279EE54AD181244A2505694 /* Pods-JLDatabase_Example */;
 			targetProxy = 8B77908BD8308E519E9391C05E5B8330 /* PBXContainerItemProxy */;
 		};
-		A6C5051F48890F3BCF4516AB930F2551 /* PBXTargetDependency */ = {
+		B200991A0E500AE7D4032A33ABFDF3FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLDatabase;
-			target = 6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */;
-			targetProxy = 7A3F355E7E5CFEE0696BDD26A2814AD7 /* PBXContainerItemProxy */;
+			target = 249DE390CADA95C07FCBE935D60C479D /* JLDatabase */;
+			targetProxy = 82732623578F44F96F9B48019DB20E37 /* PBXContainerItemProxy */;
+		};
+		E826CF27F002FB38092DE11A22A37468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 1163BD667664FE694AB284705B877EB6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D246FFE6FDACB27006C270281A6F2BB /* Release */ = {
+		27B4BA6CEAE140A5372E9248E7CC4D13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */;
+			baseConfigurationReference = 69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38407762FA5D811E39666962FFEF7A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2D5F424E6A9CDEB41BBF6CA3453A67 /* JLDatabase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,9 +664,9 @@
 			};
 			name = Release;
 		};
-		546C566C5A46C5185E7F0AD0CB3FD1B1 /* Debug */ = {
+		5EA25C1E9FDF8DEF6A53F68A6237E686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */;
+			baseConfigurationReference = 5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -481,14 +677,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JLDatabase/JLDatabase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLDatabase/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JLDatabase/JLDatabase.modulemap";
-				PRODUCT_MODULE_NAME = JLDatabase;
-				PRODUCT_NAME = JLDatabase;
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -498,7 +694,7 @@
 			};
 			name = Debug;
 		};
-		61B46716E46ACB7F706B38D155A5D8AD /* Debug */ = {
+		69431E5905D7CE3B411773277944812F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E84C0E035B8798D5F4C85414C9F5FEBC /* Pods-JLDatabase_Example.debug.xcconfig */;
 			buildSettings = {
@@ -531,11 +727,10 @@
 			};
 			name = Debug;
 		};
-		8895070921554E16934428846DB8904B /* Release */ = {
+		7D95619E7EDE9F3FC6AD74F265102D66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */;
+			baseConfigurationReference = 5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -545,19 +740,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -720,6 +913,36 @@
 			};
 			name = Release;
 		};
+		DD57AC5F7A4340379590BD7F155E2A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2D5F424E6A9CDEB41BBF6CA3453A67 /* JLDatabase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLDatabase/JLDatabase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLDatabase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLDatabase/JLDatabase.modulemap";
+				PRODUCT_MODULE_NAME = JLDatabase;
+				PRODUCT_NAME = JLDatabase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E27E6AAF336458B36FED8D060A4B7B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E8615AF0B8C7215B8325BAAC5F77839 /* Pods-JLDatabase_Tests.debug.xcconfig */;
@@ -756,6 +979,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1807EF75E39B2FC258EA31DA74D0276A /* Build configuration list for PBXNativeTarget "JLDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD57AC5F7A4340379590BD7F155E2A25 /* Debug */,
+				38407762FA5D811E39666962FFEF7A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,20 +997,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DA0A606CA7BFBF209A51BBDE3DD962D /* Build configuration list for PBXNativeTarget "JLDatabase" */ = {
+		3AB7782E5BD5C763BC612FAE8F332E75 /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				546C566C5A46C5185E7F0AD0CB3FD1B1 /* Debug */,
-				2D246FFE6FDACB27006C270281A6F2BB /* Release */,
+				69431E5905D7CE3B411773277944812F /* Debug */,
+				27B4BA6CEAE140A5372E9248E7CC4D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633ED7C1DACE6BC02F2419C142C8DE9E /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */ = {
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61B46716E46ACB7F706B38D155A5D8AD /* Debug */,
-				8895070921554E16934428846DB8904B /* Release */,
+				5EA25C1E9FDF8DEF6A53F68A6237E686 /* Debug */,
+				7D95619E7EDE9F3FC6AD74F265102D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

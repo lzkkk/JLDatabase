@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JLDatabase (0.1.0):
+    - FMDB
+
+DEPENDENCIES:
+  - JLDatabase (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  JLDatabase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JLDatabase: 88789b312f66520e91ca6ba3ead95c7e5bafca7f
+
+PODFILE CHECKSUM: 3486e0c217b7ce6c54ae7729e8091f049534f3e7
+
+COCOAPODS: 1.5.3

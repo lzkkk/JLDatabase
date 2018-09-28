@@ -1,8 +1,8 @@
 {
   "name": "JLDatabase",
   "version": "0.1.0",
-  "summary": "A short description of JLDatabase.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "JLDatabase base on FMDB",
+  "description": "JLDatabase base on FMDB, use FMDB is easy.",
   "homepage": "https://github.com/lzkkk/JLDatabase",
   "license": {
     "type": "MIT",
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JLDatabase/Classes/**/*"
+  "source_files": "JLDatabase/Classes/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
 }
