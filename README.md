@@ -18,6 +18,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'JLDatabase'
+
 ```
 
 ## Author
@@ -27,3 +28,4 @@ lzkkk, jlgoodlucky@gmail.com
 ## License
 
 JLDatabase is available under the MIT license. See the LICENSE file for more info.
+

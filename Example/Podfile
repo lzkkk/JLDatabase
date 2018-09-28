@@ -6,6 +6,5 @@ target 'JLDatabase_Example' do
   target 'JLDatabase_Tests' do
     inherit! :search_paths
 
-    
   end
 end

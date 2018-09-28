@@ -1,0 +1,28 @@
+{
+  "name": "LIPDatabase",
+  "version": "0.1.0",
+  "summary": "lipDatabase based on FMDB. author lip",
+  "description": "lipDatabase based on FMDB. and author lip, lip is a boy.",
+  "homepage": "https://github.com/lzkkk/LIPDatabase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lip": "475586149@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lzkkk/LIPDatabase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LIPDatabase/Classes/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
+}
