@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLDatabase_Example' do
+  pod 'JLDatabase', :path => '../'
+
+  target 'JLDatabase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
