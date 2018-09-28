@@ -1,0 +1,16 @@
+PODS:
+  - JLDatabase (0.1.0)
+
+DEPENDENCIES:
+  - JLDatabase (from `../`)
+
+EXTERNAL SOURCES:
+  JLDatabase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLDatabase: fbf5fe4ef572dffc72abf2accbc45a31184195df
+
+PODFILE CHECKSUM: c3a03628b194c1a2dd88daa866adc635c5a413d8
+
+COCOAPODS: 1.5.3

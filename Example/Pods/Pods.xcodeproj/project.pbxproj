@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0142A6F01DF4E9A0976260D96FE5F958 /* JLDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */; };
+		0DC56B8CB208AF675EDEA6950B6E25D4 /* JLDBManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3262A021F0A42B91886CEB58CE55A8 /* JLJsonParseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12AB40AD628958AADB081E8CA961DB7E /* JLFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */; };
+		1B74CF387BF65E14E611382C66F77BBD /* JLFMDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E343093015898EB24E6E8B415C80BA3 /* JLJsonParseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */; };
+		23083D4E7A94AB5D0632AC6970874D61 /* JLDatabaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256CF1DF7277813DFEC17DE2184998C2 /* Pods-JLDatabase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6B240B20978EAEBCD967F54288D8AD /* JLDatabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */; };
+		50AE37E5111931D76C23D30225EB55AF /* JLDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */; };
+		67C98CA6D159C60526CE48F4D60878DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		78E80406BE93F514F18200DF8863967F /* JLDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4197EFCF94ABF479DE8A8060C3EDFD /* JLDatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83911D3202FF45B0E3DC9D79B66E7A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9224AA5EE408103178447A8A03D4609E /* Pods-JLDatabase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC4D0902C8CAECDFD226AD800F681F6 /* Pods-JLDatabase_Tests-dummy.m */; };
+		AAC5F2D4E90A851230B689AD4DDA4557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C4A199F111209556305FBA01E3C354F4 /* JLFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA019171B7FBF714315A929C109E4B44 /* JLDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E900D5C1E5685EA26E325307638056EC /* Pods-JLDatabase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */; };
+		EE902E15FDA29E3EB88FE25B16BB6864 /* Pods-JLDatabase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6565F43A70B198E9D3739C6BF9ADE5 /* Pods-JLDatabase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0935911C906EBFD9CD84DB795B2ABDB /* JLDatabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4A6042B99FC9EF6CBC45289BCE32B5 /* JLFMDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A3F355E7E5CFEE0696BDD26A2814AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C601DA02E3E6170E490AA47549D87B1;
+			remoteInfo = JLDatabase;
+		};
+		8B77908BD8308E519E9391C05E5B8330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D623BB56706478E6B62E11FA0174778;
+			remoteInfo = "Pods-JLDatabase_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLDatabase-dummy.m"; sourceTree = "<group>"; };
+		28D75AC4131DDED77B291EBE63B52FCF /* Pods-JLDatabase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDatabase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseUtils.h; path = JLDatabase/Classes/JLDatabaseUtils.h; sourceTree = "<group>"; };
+		2C675673C9F749891FE6503DCDF5DB37 /* JLDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLDatabase.modulemap; sourceTree = "<group>"; };
+		2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabase.m; path = JLDatabase/Classes/JLFMDatabase.m; sourceTree = "<group>"; };
+		3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseManager.h; path = JLDatabase/Classes/JLDatabaseManager.h; sourceTree = "<group>"; };
+		36A64B00E1CE81752BC25AB82061C76E /* JLDatabase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-prefix.pch"; sourceTree = "<group>"; };
+		39420F5573491A7B0B081B126261EE2D /* Pods-JLDatabase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Tests-resources.sh"; sourceTree = "<group>"; };
+		3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseManager.m; path = JLDatabase/Classes/JLDatabaseManager.m; sourceTree = "<group>"; };
+		411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDBManagerDelegate.h; path = JLDatabase/Classes/JLDBManagerDelegate.h; sourceTree = "<group>"; };
+		4570F55079573EC7FF2731536E8F303E /* Pods-JLDatabase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDatabase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLJsonParseUtils.h; path = JLDatabase/Classes/JLJsonParseUtils.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DD8574F3843CD25932EF318ACB6CB7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5E8615AF0B8C7215B8325BAAC5F77839 /* Pods-JLDatabase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabase.h; path = JLDatabase/Classes/JLFMDatabase.h; sourceTree = "<group>"; };
+		69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabaseInterface.h; path = JLDatabase/Classes/JLDatabaseInterface.h; sourceTree = "<group>"; };
+		80A566CFA713534232DEBA9D79872C10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869DDF86DCE1F70231682E411AFC4DBF /* Pods-JLDatabase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLDatabase_Tests.modulemap"; sourceTree = "<group>"; };
+		88DDE30FC82444C46C7CF780E674D290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8988B3CB374918BD8F04C75539FD31BF /* Pods-JLDatabase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDatabase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLDatabaseUtils.m; path = JLDatabase/Classes/JLDatabaseUtils.m; sourceTree = "<group>"; };
+		9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLJsonParseUtils.m; path = JLDatabase/Classes/JLJsonParseUtils.m; sourceTree = "<group>"; };
+		9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLDatabase-umbrella.h"; sourceTree = "<group>"; };
+		A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDatabase_Example-umbrella.h"; sourceTree = "<group>"; };
+		AABEA17031BF9133661105FF3209614D /* Pods-JLDatabase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Example-resources.sh"; sourceTree = "<group>"; };
+		AAC4D0902C8CAECDFD226AD800F681F6 /* Pods-JLDatabase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDatabase_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC6565F43A70B198E9D3739C6BF9ADE5 /* Pods-JLDatabase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDatabase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDatabase.h; path = JLDatabase/Classes/JLDatabase.h; sourceTree = "<group>"; };
+		B3C6FF6025CD3928688D0F049D563CC3 /* Pods-JLDatabase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDatabase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLFMDatabaseUtils.h; path = JLDatabase/Classes/JLFMDatabaseUtils.h; sourceTree = "<group>"; };
+		BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3671345BA68A3281A9370D3BAA401E8 /* Pods-JLDatabase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLDatabase.xcconfig; sourceTree = "<group>"; };
+		CB88BD76564E83EE0909D7685480CA1D /* JLDatabase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JLDatabase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D39AF1927D7AEB0800B493B187BD2D4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE7C9FDBF2F0E42BA9221FB15FE134F /* Pods-JLDatabase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLDatabase_Example.modulemap"; sourceTree = "<group>"; };
+		E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDatabase_Example-dummy.m"; sourceTree = "<group>"; };
+		E590DA8A759FA5A0D4D74E6DF94CE542 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C0E035B8798D5F4C85414C9F5FEBC /* Pods-JLDatabase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDatabase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLFMDatabaseUtils.m; path = JLDatabase/Classes/JLFMDatabaseUtils.m; sourceTree = "<group>"; };
+		F371D5D4C7FDDE8E3F38207D9EBCC80D /* Pods-JLDatabase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDatabase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC165931CA7B25E2684E1402DAF62565 /* Pods-JLDatabase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDatabase_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D3D7ACF2E924647393BE32949E46F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C98CA6D159C60526CE48F4D60878DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E80142AE6EA3272DCC488ABBF820935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83911D3202FF45B0E3DC9D79B66E7A16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B306F4F4F14C6115F79F871631A5B72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC5F2D4E90A851230B689AD4DDA4557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024E51403E8E29F8FC336BED30973891 /* Pods-JLDatabase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D39AF1927D7AEB0800B493B187BD2D4F /* Info.plist */,
+				DCE7C9FDBF2F0E42BA9221FB15FE134F /* Pods-JLDatabase_Example.modulemap */,
+				4570F55079573EC7FF2731536E8F303E /* Pods-JLDatabase_Example-acknowledgements.markdown */,
+				F371D5D4C7FDDE8E3F38207D9EBCC80D /* Pods-JLDatabase_Example-acknowledgements.plist */,
+				E23FE8235FAFC255B70E59898611E4B6 /* Pods-JLDatabase_Example-dummy.m */,
+				8988B3CB374918BD8F04C75539FD31BF /* Pods-JLDatabase_Example-frameworks.sh */,
+				AABEA17031BF9133661105FF3209614D /* Pods-JLDatabase_Example-resources.sh */,
+				A099C57A88179CCF0E76AE023391E96D /* Pods-JLDatabase_Example-umbrella.h */,
+				E84C0E035B8798D5F4C85414C9F5FEBC /* Pods-JLDatabase_Example.debug.xcconfig */,
+				69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */,
+			);
+			name = "Pods-JLDatabase_Example";
+			path = "Target Support Files/Pods-JLDatabase_Example";
+			sourceTree = "<group>";
+		};
+		510BFD4BF454DF766536EFDEC4FE05B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				024E51403E8E29F8FC336BED30973891 /* Pods-JLDatabase_Example */,
+				8AC369A3F1C384E3AA4E15288FEDD4B2 /* Pods-JLDatabase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B157C95BAB3A1842D3AD44605489F65C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C27A7C0C16C2503D880AD166FA5CCE3F /* Products */,
+				510BFD4BF454DF766536EFDEC4FE05B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE097459C9B47B02A0265907B3711DA /* JLDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				B39ABCF4B6DC05773D2BA1DB0CB3BBC6 /* JLDatabase.h */,
+				7BD4D23822AC372BB7FDC2CFB54204DD /* JLDatabaseInterface.h */,
+				3660C636D841B81A2BCAC150C0C59527 /* JLDatabaseManager.h */,
+				3FB726D3482A8D36D509E15CD464369D /* JLDatabaseManager.m */,
+				29369B3A3472AE1C0DC9D5448779A222 /* JLDatabaseUtils.h */,
+				958BAF0019B31D595F1A0EDACD200143 /* JLDatabaseUtils.m */,
+				411B9C0FEC99EAD3F2C8D5E0483FF681 /* JLDBManagerDelegate.h */,
+				611FF4857DC68453146361123C6334FD /* JLFMDatabase.h */,
+				2D7A6226F44AC2F049E4137D0567DE58 /* JLFMDatabase.m */,
+				B6ED5D5A4909A01CE39FCCDD129A8189 /* JLFMDatabaseUtils.h */,
+				F26529EE58D1D234D4659D3DE2CEE8C2 /* JLFMDatabaseUtils.m */,
+				4FF64776B78E61006EFD23D8A9BA334F /* JLJsonParseUtils.h */,
+				9A4DE2C094288D719DBA6E99CF1D1401 /* JLJsonParseUtils.m */,
+				831D0B9060E33BBBC0DFFFEAA5CA9096 /* Pod */,
+				95E5DBB1B7008DAC1221DC81C8DB2A75 /* Support Files */,
+			);
+			name = JLDatabase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		831D0B9060E33BBBC0DFFFEAA5CA9096 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB88BD76564E83EE0909D7685480CA1D /* JLDatabase.podspec */,
+				5DD8574F3843CD25932EF318ACB6CB7D /* LICENSE */,
+				88DDE30FC82444C46C7CF780E674D290 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8AC369A3F1C384E3AA4E15288FEDD4B2 /* Pods-JLDatabase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80A566CFA713534232DEBA9D79872C10 /* Info.plist */,
+				869DDF86DCE1F70231682E411AFC4DBF /* Pods-JLDatabase_Tests.modulemap */,
+				B3C6FF6025CD3928688D0F049D563CC3 /* Pods-JLDatabase_Tests-acknowledgements.markdown */,
+				28D75AC4131DDED77B291EBE63B52FCF /* Pods-JLDatabase_Tests-acknowledgements.plist */,
+				AAC4D0902C8CAECDFD226AD800F681F6 /* Pods-JLDatabase_Tests-dummy.m */,
+				FC165931CA7B25E2684E1402DAF62565 /* Pods-JLDatabase_Tests-frameworks.sh */,
+				39420F5573491A7B0B081B126261EE2D /* Pods-JLDatabase_Tests-resources.sh */,
+				AC6565F43A70B198E9D3739C6BF9ADE5 /* Pods-JLDatabase_Tests-umbrella.h */,
+				5E8615AF0B8C7215B8325BAAC5F77839 /* Pods-JLDatabase_Tests.debug.xcconfig */,
+				C3671345BA68A3281A9370D3BAA401E8 /* Pods-JLDatabase_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLDatabase_Tests";
+			path = "Target Support Files/Pods-JLDatabase_Tests";
+			sourceTree = "<group>";
+		};
+		95E5DBB1B7008DAC1221DC81C8DB2A75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E590DA8A759FA5A0D4D74E6DF94CE542 /* Info.plist */,
+				2C675673C9F749891FE6503DCDF5DB37 /* JLDatabase.modulemap */,
+				C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */,
+				26DE6FB6B71DD91F61FD979D46825A8B /* JLDatabase-dummy.m */,
+				36A64B00E1CE81752BC25AB82061C76E /* JLDatabase-prefix.pch */,
+				9DAC7CA08B06349E399B54FA8D50059E /* JLDatabase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLDatabase";
+			sourceTree = "<group>";
+		};
+		B157C95BAB3A1842D3AD44605489F65C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EE097459C9B47B02A0265907B3711DA /* JLDatabase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C27A7C0C16C2503D880AD166FA5CCE3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */,
+				9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */,
+				75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EE12DA9CFB64CAB0177EE9C704939C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0935911C906EBFD9CD84DB795B2ABDB /* JLDatabase-umbrella.h in Headers */,
+				78E80406BE93F514F18200DF8863967F /* JLDatabase.h in Headers */,
+				23083D4E7A94AB5D0632AC6970874D61 /* JLDatabaseInterface.h in Headers */,
+				DA019171B7FBF714315A929C109E4B44 /* JLDatabaseManager.h in Headers */,
+				7C4197EFCF94ABF479DE8A8060C3EDFD /* JLDatabaseUtils.h in Headers */,
+				0DC56B8CB208AF675EDEA6950B6E25D4 /* JLDBManagerDelegate.h in Headers */,
+				C4A199F111209556305FBA01E3C354F4 /* JLFMDatabase.h in Headers */,
+				1B74CF387BF65E14E611382C66F77BBD /* JLFMDatabaseUtils.h in Headers */,
+				0E3262A021F0A42B91886CEB58CE55A8 /* JLJsonParseUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E47B5F0B6E00C6C7AE0DF1C9ED9441 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE902E15FDA29E3EB88FE25B16BB6864 /* Pods-JLDatabase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD836A43A243D1E0A16566F7637A0147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256CF1DF7277813DFEC17DE2184998C2 /* Pods-JLDatabase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		403E09AAEF5F2B3796293AB1412BFBED /* Pods-JLDatabase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94897DB339372E8C9AF5164FBBB41C32 /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Tests" */;
+			buildPhases = (
+				F9A8A4C89F2FD2EDD7011BEB553CDED5 /* Sources */,
+				5E80142AE6EA3272DCC488ABBF820935 /* Frameworks */,
+				46E47B5F0B6E00C6C7AE0DF1C9ED9441 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CC9B422024E02440783DA8A18CD01F /* PBXTargetDependency */,
+			);
+			name = "Pods-JLDatabase_Tests";
+			productName = "Pods-JLDatabase_Tests";
+			productReference = 75648F695B926FE82D15A11A19F0C67C /* Pods_JLDatabase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633ED7C1DACE6BC02F2419C142C8DE9E /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */;
+			buildPhases = (
+				2075AEEBF9CF8DF07B162C3E983E7A07 /* Sources */,
+				49D3D7ACF2E924647393BE32949E46F5 /* Frameworks */,
+				FD836A43A243D1E0A16566F7637A0147 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C5051F48890F3BCF4516AB930F2551 /* PBXTargetDependency */,
+			);
+			name = "Pods-JLDatabase_Example";
+			productName = "Pods-JLDatabase_Example";
+			productReference = 9464BFD50DD06A8141747F71E3E64619 /* Pods_JLDatabase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA0A606CA7BFBF209A51BBDE3DD962D /* Build configuration list for PBXNativeTarget "JLDatabase" */;
+			buildPhases = (
+				00DABE37A83A6E83035F291831A26537 /* Sources */,
+				B306F4F4F14C6115F79F871631A5B72B /* Frameworks */,
+				3EE12DA9CFB64CAB0177EE9C704939C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLDatabase;
+			productName = JLDatabase;
+			productReference = BAAAE5ADAC7FC3DC6773C7AFCEDA7DA4 /* JLDatabase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C27A7C0C16C2503D880AD166FA5CCE3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */,
+				5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */,
+				403E09AAEF5F2B3796293AB1412BFBED /* Pods-JLDatabase_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DABE37A83A6E83035F291831A26537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B240B20978EAEBCD967F54288D8AD /* JLDatabase-dummy.m in Sources */,
+				50AE37E5111931D76C23D30225EB55AF /* JLDatabaseManager.m in Sources */,
+				0142A6F01DF4E9A0976260D96FE5F958 /* JLDatabaseUtils.m in Sources */,
+				12AB40AD628958AADB081E8CA961DB7E /* JLFMDatabase.m in Sources */,
+				FB4A6042B99FC9EF6CBC45289BCE32B5 /* JLFMDatabaseUtils.m in Sources */,
+				1E343093015898EB24E6E8B415C80BA3 /* JLJsonParseUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2075AEEBF9CF8DF07B162C3E983E7A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900D5C1E5685EA26E325307638056EC /* Pods-JLDatabase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A8A4C89F2FD2EDD7011BEB553CDED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9224AA5EE408103178447A8A03D4609E /* Pods-JLDatabase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CC9B422024E02440783DA8A18CD01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JLDatabase_Example";
+			target = 5D623BB56706478E6B62E11FA0174778 /* Pods-JLDatabase_Example */;
+			targetProxy = 8B77908BD8308E519E9391C05E5B8330 /* PBXContainerItemProxy */;
+		};
+		A6C5051F48890F3BCF4516AB930F2551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLDatabase;
+			target = 6C601DA02E3E6170E490AA47549D87B1 /* JLDatabase */;
+			targetProxy = 7A3F355E7E5CFEE0696BDD26A2814AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D246FFE6FDACB27006C270281A6F2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLDatabase/JLDatabase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLDatabase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLDatabase/JLDatabase.modulemap";
+				PRODUCT_MODULE_NAME = JLDatabase;
+				PRODUCT_NAME = JLDatabase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		546C566C5A46C5185E7F0AD0CB3FD1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C958E28315D36BC6503C2532C929CE87 /* JLDatabase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLDatabase/JLDatabase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLDatabase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLDatabase/JLDatabase.modulemap";
+				PRODUCT_MODULE_NAME = JLDatabase;
+				PRODUCT_NAME = JLDatabase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61B46716E46ACB7F706B38D155A5D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84C0E035B8798D5F4C85414C9F5FEBC /* Pods-JLDatabase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8895070921554E16934428846DB8904B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69947AA224470A72AA859136311FEF1C /* Pods-JLDatabase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Example/Pods-JLDatabase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1A4286CC4AC9F799212102E8A765C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3671345BA68A3281A9370D3BAA401E8 /* Pods-JLDatabase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Tests/Pods-JLDatabase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E27E6AAF336458B36FED8D060A4B7B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8615AF0B8C7215B8325BAAC5F77839 /* Pods-JLDatabase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDatabase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDatabase_Tests/Pods-JLDatabase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA0A606CA7BFBF209A51BBDE3DD962D /* Build configuration list for PBXNativeTarget "JLDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546C566C5A46C5185E7F0AD0CB3FD1B1 /* Debug */,
+				2D246FFE6FDACB27006C270281A6F2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633ED7C1DACE6BC02F2419C142C8DE9E /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B46716E46ACB7F706B38D155A5D8AD /* Debug */,
+				8895070921554E16934428846DB8904B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94897DB339372E8C9AF5164FBBB41C32 /* Build configuration list for PBXNativeTarget "Pods-JLDatabase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27E6AAF336458B36FED8D060A4B7B0E /* Debug */,
+				C1A4286CC4AC9F799212102E8A765C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
