@@ -99,37 +99,39 @@
 
 + (id)value:(NSString*)name type:(NSString*)type from:(FMResultSet *)set clz:(Class)clazz{
     
-    BOOL isIngore = [clazz isIgnoreColumn:name];
-    if (isIngore) {
-        return nil;
-    }else if ([[type lowercaseString] isEqualToString:@"c"]||[[type lowercaseString] isEqualToString:@"b"]) {
-        return [NSNumber numberWithBool:[set boolForColumn:name]];
-    }else if ([[type lowercaseString] isEqualToString:@"i"]||[[type lowercaseString] isEqualToString:@"l"]
-              ||[[type lowercaseString] isEqualToString:@"q"]) {
-        return [NSNumber numberWithLongLong:[set longLongIntForColumn:name]];
-    }else if ([[type lowercaseString] isEqualToString:@"f"]||[[type lowercaseString] isEqualToString:@"d"]
-              ||[type isEqualToString:@"NSNumber"]){
-        return [NSNumber numberWithDouble:[set doubleForColumn:name]];
-    }else if([type isEqualToString:@"NSString"]){
-        return [set stringForColumn:name];
-    }
-    else{
-        if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
-            BOOL isBlob = [clazz isBlobColumn:name];
-            if (isBlob) {
-                NSData* data = [set dataForColumn:name];
-                if (data&&[data isKindOfClass:[NSData class]]) {
-                    NSKeyedUnarchiver* unarcher = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
-                    id obj = [unarcher decodeObjectForKey:name];
-                    [unarcher finishDecoding];
-                    return obj;
-                }
-            }
-            
-        }
-        return nil;
+    
+    if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
+        BOOL isIngore = [clazz isIgnoreColumn:name];
+        if (isIngore) return nil;
     }
     
+    if ([[type lowercaseString] isEqualToString:@"c"]||[[type lowercaseString] isEqualToString:@"b"]) {
+        return [NSNumber numberWithBool:[set boolForColumn:name]];
+    }
+    if ([[type lowercaseString] isEqualToString:@"i"]||[[type lowercaseString] isEqualToString:@"l"]
+              ||[[type lowercaseString] isEqualToString:@"q"]) {
+        return [NSNumber numberWithLongLong:[set longLongIntForColumn:name]];
+    }
+    if ([[type lowercaseString] isEqualToString:@"f"]||[[type lowercaseString] isEqualToString:@"d"]
+              ||[type isEqualToString:@"NSNumber"]){
+        return [NSNumber numberWithDouble:[set doubleForColumn:name]];
+    }
+    if([type isEqualToString:@"NSString"]){
+        return [set stringForColumn:name];
+    }
+    if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
+        BOOL isBlob = [clazz isBlobColumn:name];
+        if (isBlob) {
+            NSData* data = [set dataForColumn:name];
+            if (data&&[data isKindOfClass:[NSData class]]) {
+                NSKeyedUnarchiver* unarcher = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+                id obj = [unarcher decodeObjectForKey:name];
+                [unarcher finishDecoding];
+                return obj;
+            }
+        }
+    }
+    return nil;
 }
 
 @end

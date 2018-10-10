@@ -69,29 +69,27 @@ static const char *getPropertyType(objc_property_t property){
     //    3.REAL：浮点数字，存储为8-byte IEEE浮点数。
     //    4.TEXT：字符串文本。
     //    5.BLOB：二进制对象
+    if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
+        BOOL isIgnore = [clazz isIgnoreColumn:name];
+        if (isIgnore)  return nil;
+    }
     NSString* type = [dict objectForKey:name];
     if ([[type lowercaseString] isEqualToString:@"i"]||[[type lowercaseString] isEqualToString:@"l"]
         ||[[type lowercaseString] isEqualToString:@"q"]||[[type lowercaseString] isEqualToString:@"c"]||[[type lowercaseString] isEqualToString:@"b"]) {
         return @"INTEGER";
-    }else if ([[type lowercaseString] isEqualToString:@"f"]||[[type lowercaseString] isEqualToString:@"d"]
+    }
+    if ([[type lowercaseString] isEqualToString:@"f"]||[[type lowercaseString] isEqualToString:@"d"]
               ||[type isEqualToString:@"NSNumber"]){
         return @"REAL";
-    }else if([type isEqualToString:@"NSString"]){
-        return @"TEXT";
-    }else{
-        if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
-            BOOL isBlob = [clazz isBlobColumn:name];
-            if (isBlob) {
-                return @"BLOB";
-            }
-            BOOL isIgnore = [clazz isIgnoreColumn:name];
-            if (isIgnore) {
-                return nil;
-            }
-        }
-        return nil;
     }
-    
+    if([type isEqualToString:@"NSString"]){
+        return @"TEXT";
+    }
+    if ([clazz conformsToProtocol:@protocol(JLDBManagerDelegate)]) {
+        BOOL isBlob = [clazz isBlobColumn:name];
+        if (isBlob)    return @"BLOB";
+    }
+    return nil;
 }
 
 + (NSMutableDictionary*)checkTypeForValues:(NSMutableDictionary*)valuesDict
